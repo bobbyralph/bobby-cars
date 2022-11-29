@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/vehicles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="fevicon.png" type="image/png">
+    <title>Vehicles</title>
+</head>
+<body class="main-layout">
+<header  id="navbar"></header>
+
+<h1 style="text-align: center">Orders</h1>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Brand</th>
+        <th scope="col">Model</th>
+        <th scope="col">Used</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+<div class="mt-2">
+    <div class="text-center">
+                <div class="d-inline-block">
+                    <div class="input-group">
+                        <span class="input-group-text">Page</span>
+                        <button class="btn btn-outline-primary" type="button" onclick="next(true)"><</button>
+                        <select class="page form-control" >
+
+                        </select>
+                        <button class="btn btn-outline-primary" type="button" onclick="next()">></button>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="d-inline-block">
+                    <div class="input-group">
+                        <span class="input-group-text">Size</span>
+                        <select class="size form-control" >
+                            <option selected>10</option>
+                            <option>20</option>
+                            <option>30</option>
+                            <option>40</option>
+                            <option>50</option>
+                        </select>
+                    </div>
+
+
+
+                </div>
+
+    </div>
+
+</div>
+
+<script src="js/navbar.js" ></script>
+<script src="js/main.js"></script>
+</body>
+</html>
